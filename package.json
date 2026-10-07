@@ -1,0 +1,23 @@
+{
+  "name": "gnss-dop-service",
+  "version": "1.0.0",
+  "description": "教学用 GNSS 星座几何 DOP 与退化方向核验后端（TypeScript + Node.js + SQLite）",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test test/*.test.ts",
+    "start": "node --no-warnings dist/server.js",
+    "dev": "tsx src/server.ts",
+    "cli": "tsx src/cli/cli.ts",
+    "demo": "tsx src/cli/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0"
+  }
+}

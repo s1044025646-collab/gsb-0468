@@ -1,0 +1,8 @@
+{
+  "satellites": [
+    { "id": "ZENITH", "azDeg": 0, "elDeg": 90 },
+    { "id": "H0", "azDeg": 0, "elDeg": 0 },
+    { "id": "H120", "azDeg": 120, "elDeg": 0 },
+    { "id": "H240", "azDeg": 240, "elDeg": 0 }
+  ]
+}
