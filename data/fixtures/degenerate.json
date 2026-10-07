@@ -1,0 +1,7 @@
+[
+  { "id": "S1", "azimuthDeg": 0, "elevationDeg": 30 },
+  { "id": "S2", "azimuthDeg": 60, "elevationDeg": 30 },
+  { "id": "S3", "azimuthDeg": 150, "elevationDeg": 30 },
+  { "id": "S4", "azimuthDeg": 230, "elevationDeg": 30 },
+  { "id": "S5", "azimuthDeg": 300, "elevationDeg": 30 }
+]

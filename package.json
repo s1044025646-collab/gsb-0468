@@ -1,0 +1,32 @@
+{
+  "name": "gnss-dop",
+  "version": "1.0.0",
+  "description": "GNSS 星座几何 DOP 与退化方向核验后端（教学用，TypeScript + Node.js + SQLite）",
+  "main": "dist/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "gnss-dop": "dist/bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node dist/bin/serve.js",
+    "dev": "tsx src/bin/serve.ts",
+    "cli": "node dist/bin/cli.js",
+    "demo": "node scripts/demo.mjs",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}

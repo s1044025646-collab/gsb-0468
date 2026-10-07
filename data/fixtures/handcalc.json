@@ -1,0 +1,6 @@
+[
+  { "id": "ZENITH", "azimuthDeg": 0, "elevationDeg": 90 },
+  { "id": "H0", "azimuthDeg": 0, "elevationDeg": 0 },
+  { "id": "H120", "azimuthDeg": 120, "elevationDeg": 0 },
+  { "id": "H240", "azimuthDeg": 240, "elevationDeg": 0 }
+]
